@@ -13,10 +13,10 @@ __**General structure:**__
 The physical structure of PDF file is split into four parts such as Header, Body, Cross reference 
 table and Trailer. 
 
-> Header includes a version number of PDF files
+1. Header includes a version number of PDF files
 %PDF 1.7
 
-> Body is the main portion of a PDF file containing all types of objects that build the 
+2. Body is the main portion of a PDF file containing all types of objects that build the 
 document.
 1 0 obj
 . . .
@@ -26,7 +26,7 @@ endobj
 endobj
 . . .
 
-> Cross reference table containing offset of each object stored in the body part.
+3. Cross reference table containing offset of each object stored in the body part.
 xref
 0 6
 0000000000 65535 f 
@@ -36,13 +36,13 @@ xref
 0000000301 00000 n 
 0000000380 00000 n
 
-> Trailer records the offset of cross reference table reference of certain special objects 
+4. Trailer records the offset of cross reference table reference of certain special objects 
 within the body of the file like reference object of the foot.
 trailer
 <<
  /Size 6
  /Root 1 0 R
-> >>
+>>
 startxref
 492
 %%EOF
