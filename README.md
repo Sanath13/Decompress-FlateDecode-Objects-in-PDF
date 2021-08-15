@@ -42,7 +42,7 @@ trailer
 <<
  /Size 6
  /Root 1 0 R
->>
+\>>
 startxref
 492
 %%EOF
