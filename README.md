@@ -18,12 +18,12 @@ table and Trailer.
 
 2. Body is the main portion of a PDF file containing all types of objects that build the 
 document.
-1 0 obj
-. . .
-endobj
-2 0 obj
-. . .
-endobj
+1 0 obj \n
+. . . \n
+endobj \n
+2 0 obj \n
+. . . \n
+endobj \n
 . . .
 
 3. Cross reference table containing offset of each object stored in the body part.
