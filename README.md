@@ -5,7 +5,7 @@ An attempt to decompress FlateDecode stream objects in PDF files using Regular E
 Portable Document Format (PDF) is a format mean to display content identically in all platforms and media. It is one of the most popular electronic document formats. It is a layout based format, it specifies the positions and fonts of the individual characters, of which the text is composed. 
 
 The physical structure of PDF file is split into four parts such as Header, Body, Cross reference table and Trailer. Body is the main portion of a PDF file containing all types of objects that build the document. Stream object that contains instructions to render the page. 
-_Most streams are compressed, the content of the stream is then binary data._
+___Most streams are compressed, the content of the stream is then binary data.___
 
 To decompress binary data between FlateDecode stream objects, we have a program "Decompress FlateDecode" that takes pdf file as an input, decompress FlateDecode stream data using zlib python library.
 
