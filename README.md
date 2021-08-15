@@ -50,7 +50,7 @@ startxref
 __**Filters:**__
 A filter is an optional part of the specification of a stream, indicating how the data in the stream must be decoded before it is used. For example, if a stream has an ASCIIHexDecode filter, an application reading the data in that stream will transform the ASCII hexadecimal encoded data in the stream into binary data. The goal is to replace the clear-text stream from our PDF to a compressed stream. We can encode and decode stream objects using FlateDecode.
 
-Consider the stream object in above example.
+Consider the stream object in this example:
 5 0 obj
 <<
  /Length 15
